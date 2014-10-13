@@ -8,7 +8,6 @@ totaldims = auxdata.totaldims;
 ratio = 1;
 %action_r = auxdata.action_r; % balance the loss for different categories
 
-
 gradient = zeros(totaldims, 1);
 fvalue = 0;
 
