@@ -61,7 +61,8 @@ auxdata = struct('action_n', action_n, 'orient_n', orient_n, 'flow_n', flow_n, .
                  'totaldims', totaldims, 'label', label, 'name', name);
 
 % smart initializations
-load('../l1_clip/mat/weight');
+%load('../l1_clip/mat/weight');
+load('mat/weight_ini'); % weight learnt from the baseline with only top 2 layers
 w0 = ones(1,totaldims);
 w0(1:length(w)) = w;
 
