@@ -47,7 +47,7 @@ for i = 1:video_n
   feat_a2(2,:) = sum(feat_a2_tmp, 1) / (flow_n+eps);
   feat_a3(2,:) = sum(feat_a3_tmp, 1) / (flow_n+eps);
   
-  label = auxdata(clip_idx{i}(2)).label
+  label = auxdata(clip_idx{i}(2)).label;
   
   % use a temporal distance dependent loss function
   %t = label(4);
