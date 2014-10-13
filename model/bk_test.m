@@ -8,7 +8,7 @@ clip_len = conf.clip_len;
 action_n = [5 25 60];
 orient_n = 5;
 
-load('../subcategory/mat/pos_neg/data_l1.mat', 'state_idx');
+load('../subcategory/mat/data_l1.mat', 'state_idx');
 for i = 1:action_n(1)-1
   for j = 1:orient_n
     k = (i-1) * orient_n + j;
