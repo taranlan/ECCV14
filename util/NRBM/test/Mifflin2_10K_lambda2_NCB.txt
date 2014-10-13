@@ -1,0 +1,1296 @@
+BEGIN NonConvexBundle
+NonConvexBundle options:
+                     epsilon: 1.0000e-03
+                     maxiter: 500
+                       maxCP: 100
+                   fpositive: 0
+                computeGapQP: 1
+                 updateDiary: 1
+                   verbosity: 2
+    cuttingPlanAtOptimumDual: 0
+                          LS: 0
+                   nonconvex: 1
+                      solver: 'kowalczyk'
+
+NonConvexBundle::dimW=10000
+function evaluation fval=47495.2 |w|=0 |grad|=1599.88
+NonConvexBundle::t=1 k=1 j=1 fcurrent=4.749525e+04 reg=0.000000e+00 Remp=4.749525e+04
+norm wbest=0 dist=0 sumdist=0
+NCBlight::quadratic programming : primal = -6.351546e+06 dual=-6.351546e+06 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=1 nfeval=1 f=4.749525e+04 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-6.351546e+06 gap=6.39904e+06 =13473.01309%
+===== () ===========
+function evaluation fval=4.73565e+08 |w|=7999.4 |grad|=119989
+NonConvexBundle::t=2 k=1 j=2 fcurrent=4.735645e+08 reg=6.399041e+06 Remp=4.671655e+08
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=1
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.751806e+06 dual=-4.751806e+06 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=2 nfeval=2 f=4.735645e+08 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-4.751806e+06 gap=4.7993e+06 =10104.80209%
+===== () ===========
+function evaluation fval=1.15228e+08 |w|=3999.78 |grad|=59194.2
+NonConvexBundle::t=3 k=1 j=3 fcurrent=1.152280e+08 reg=1.599821e+06 Remp=1.136281e+08
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=6
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -2.752112e+06 dual=-2.752112e+06 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=3 nfeval=3 f=1.152280e+08 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-2.752112e+06 gap=2.79961e+06 =5894.49871%
+===== () ===========
+function evaluation fval=2.72429e+07 |w|=1999.91 |grad|=28797
+NonConvexBundle::t=4 k=1 j=4 fcurrent=2.724288e+07 reg=3.999639e+05 Remp=2.684291e+07
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=10
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -1.452299e+06 dual=-1.452299e+06 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=4 nfeval=4 f=2.724288e+07 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-1.452299e+06 gap=1.49979e+06 =3157.77790%
+===== () ===========
+function evaluation fval=6.04645e+06 |w|=999.961 |grad|=13598.5
+NonConvexBundle::t=5 k=1 j=5 fcurrent=6.046451e+06 reg=9.999216e+04 Remp=5.946459e+06
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=30
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -7.274000e+05 dual=-7.274000e+05 gap=-0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=5 nfeval=5 f=6.046451e+06 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-7.274000e+05 gap=774895 =1631.52167%
+===== () ===========
+function evaluation fval=1.14729e+06 |w|=499.982 |grad|=5999.31
+NonConvexBundle::t=6 k=1 j=6 fcurrent=1.147288e+06 reg=2.499819e+04 Remp=1.122289e+06
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=45
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -3.462019e+05 dual=-3.462019e+05 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=6 nfeval=6 f=1.147288e+06 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-3.462019e+05 gap=393697 =828.91910%
+===== () ===========
+function evaluation fval=122470 |w|=249.991 |grad|=2199.71
+NonConvexBundle::t=7 k=1 j=7 fcurrent=1.224700e+05 reg=6.249568e+03 Remp=1.162204e+05
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=113
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -1.509157e+05 dual=-1.509157e+05 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=7 nfeval=7 f=1.224700e+05 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-1.509157e+05 gap=198411 =417.74912%
+===== () ===========
+function evaluation fval=-3124.4 |w|=124.995 |grad|=50.004
+NonConvexBundle::t=8 k=1 j=8 fcurrent=-3.124402e+03 reg=1.562387e+03 Remp=-4.686789e+03
+norm wbest=124.995 dist=15623.9 sumdist=15623.9
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=178
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -6.005617e+03 dual=-6.005617e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=8 nfeval=8 f=-3.124402e+03 fbest=-3.124402e+03 Rbest=-4.686789e+03 tbest=8 dual=-6.005617e+03 gap=2881.22 =92.21652%
+===== () ===========
+function evaluation fval=19752.4 |w|=191.448 |grad|=1309.89
+NonConvexBundle::t=9 k=1 j=9 fcurrent=1.975238e+04 reg=3.665227e+03 Remp=1.608716e+04
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=242
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -5.267953e+03 dual=-5.267953e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=9 nfeval=9 f=1.975238e+04 fbest=-3.124402e+03 Rbest=-4.686789e+03 tbest=8 dual=-5.267953e+03 gap=2143.55 =68.60674%
+===== () ===========
+function evaluation fval=-2491.25 |w|=172.365 |grad|=1019.83
+NonConvexBundle::t=10 k=1 j=10 fcurrent=-2.491251e+03 reg=2.970969e+03 Remp=-5.462220e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=250
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -5.162978e+03 dual=-5.162978e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=10 nfeval=10 f=-2.491251e+03 fbest=-3.124402e+03 Rbest=-4.686789e+03 tbest=8 dual=-5.162978e+03 gap=2038.58 =65.24689%
+===== () ===========
+function evaluation fval=-4113.65 |w|=169.79 |grad|=28.8772
+NonConvexBundle::t=11 k=1 j=11 fcurrent=-4.113655e+03 reg=2.882872e+03 Remp=-6.996527e+03
+norm wbest=169.79 dist=2017.05 sumdist=17640.9
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=296
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -5.028652e+03 dual=-5.028700e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=11 nfeval=11 f=-4.113655e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-5.028700e+03 gap=915.045 =22.24409%
+===== () ===========
+function evaluation fval=237.696 |w|=172.871 |grad|=274.051
+NonConvexBundle::t=12 k=1 j=12 fcurrent=2.376965e+02 reg=2.988426e+03 Remp=-2.750730e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=338
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.691778e+03 dual=-4.691795e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=12 nfeval=12 f=2.376965e+02 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.691795e+03 gap=578.14 =14.05418%
+===== () ===========
+function evaluation fval=387.44 |w|=163.62 |grad|=323.553
+NonConvexBundle::t=13 k=1 j=13 fcurrent=3.874405e+02 reg=2.677140e+03 Remp=-2.289700e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=337
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.665892e+03 dual=-4.665936e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=13 nfeval=13 f=3.874405e+02 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.665936e+03 gap=552.281 =13.42555%
+===== () ===========
+function evaluation fval=-2918.24 |w|=159.931 |grad|=141.159
+NonConvexBundle::t=14 k=1 j=14 fcurrent=-2.918243e+03 reg=2.557793e+03 Remp=-5.476036e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=321
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.577920e+03 dual=-4.577963e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=14 nfeval=14 f=-2.918243e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.577963e+03 gap=464.308 =11.28700%
+===== () ===========
+function evaluation fval=-2473.77 |w|=157.681 |grad|=211.307
+NonConvexBundle::t=15 k=1 j=15 fcurrent=-2.473775e+03 reg=2.486322e+03 Remp=-4.960097e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=294
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.476932e+03 dual=-4.476945e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=15 nfeval=15 f=-2.473775e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.476945e+03 gap=363.29 =8.83133%
+===== () ===========
+function evaluation fval=-3752.95 |w|=161.732 |grad|=94.4233
+NonConvexBundle::t=16 k=1 j=16 fcurrent=-3.752951e+03 reg=2.615711e+03 Remp=-6.368662e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=299
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.450321e+03 dual=-4.450337e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=16 nfeval=16 f=-3.752951e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.450337e+03 gap=336.682 =8.18449%
+===== () ===========
+function evaluation fval=-2475.73 |w|=162.128 |grad|=219.718
+NonConvexBundle::t=17 k=1 j=17 fcurrent=-2.475725e+03 reg=2.628555e+03 Remp=-5.104281e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=292
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.416061e+03 dual=-4.416077e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=17 nfeval=17 f=-2.475725e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.416077e+03 gap=302.422 =7.35166%
+===== () ===========
+function evaluation fval=-3775.55 |w|=161.924 |grad|=96.0736
+NonConvexBundle::t=18 k=1 j=18 fcurrent=-3.775555e+03 reg=2.621923e+03 Remp=-6.397477e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=295
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.369469e+03 dual=-4.369483e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=18 nfeval=18 f=-3.775555e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.369483e+03 gap=255.828 =6.21900%
+===== () ===========
+function evaluation fval=-3832.68 |w|=163.056 |grad|=91.3458
+NonConvexBundle::t=19 k=1 j=19 fcurrent=-3.832679e+03 reg=2.658721e+03 Remp=-6.491400e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=294
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.346800e+03 dual=-4.346826e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=19 nfeval=19 f=-3.832679e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.346826e+03 gap=233.171 =5.66823%
+===== () ===========
+function evaluation fval=-4094.67 |w|=163.879 |grad|=34.8244
+NonConvexBundle::t=20 k=1 j=20 fcurrent=-4.094666e+03 reg=2.685622e+03 Remp=-6.780288e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=510
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.315518e+03 dual=-4.315560e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=20 nfeval=20 f=-4.094666e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.315560e+03 gap=201.905 =4.90816%
+===== () ===========
+function evaluation fval=-2221.19 |w|=164.995 |grad|=243.65
+NonConvexBundle::t=21 k=1 j=21 fcurrent=-2.221193e+03 reg=2.722324e+03 Remp=-4.943516e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=470
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.298499e+03 dual=-4.298524e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=21 nfeval=21 f=-2.221193e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.298524e+03 gap=184.869 =4.49403%
+===== () ===========
+function evaluation fval=-3403.4 |w|=164.792 |grad|=154.555
+NonConvexBundle::t=22 k=1 j=22 fcurrent=-3.403396e+03 reg=2.715625e+03 Remp=-6.119020e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=389
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.284117e+03 dual=-4.284143e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=22 nfeval=22 f=-3.403396e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.284143e+03 gap=170.488 =4.14445%
+===== () ===========
+function evaluation fval=-3626.73 |w|=165.027 |grad|=130.847
+NonConvexBundle::t=23 k=1 j=23 fcurrent=-3.626731e+03 reg=2.723396e+03 Remp=-6.350127e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=323
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.275501e+03 dual=-4.275525e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=23 nfeval=23 f=-3.626731e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.275525e+03 gap=161.87 =3.93494%
+===== () ===========
+function evaluation fval=-3966.9 |w|=165.058 |grad|=83.4149
+NonConvexBundle::t=24 k=1 j=24 fcurrent=-3.966900e+03 reg=2.724430e+03 Remp=-6.691331e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=304
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.266280e+03 dual=-4.266312e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=24 nfeval=24 f=-3.966900e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.266312e+03 gap=152.657 =3.71097%
+===== () ===========
+function evaluation fval=-3890.51 |w|=165.267 |grad|=96.5206
+NonConvexBundle::t=25 k=1 j=25 fcurrent=-3.890509e+03 reg=2.731333e+03 Remp=-6.621842e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=278
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.260180e+03 dual=-4.260184e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=25 nfeval=25 f=-3.890509e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.260184e+03 gap=146.529 =3.56201%
+===== () ===========
+function evaluation fval=-4107.16 |w|=165.236 |grad|=48.2121
+NonConvexBundle::t=26 k=1 j=26 fcurrent=-4.107162e+03 reg=2.730302e+03 Remp=-6.837464e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=295
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.255573e+03 dual=-4.255613e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=26 nfeval=26 f=-4.107162e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.255613e+03 gap=141.958 =3.45089%
+===== () ===========
+function evaluation fval=-3941.56 |w|=165.513 |grad|=89.0459
+NonConvexBundle::t=27 k=1 j=27 fcurrent=-3.941558e+03 reg=2.739457e+03 Remp=-6.681015e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=296
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.254130e+03 dual=-4.254134e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=27 nfeval=27 f=-3.941558e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.254134e+03 gap=140.479 =3.41494%
+===== () ===========
+function evaluation fval=-4127.34 |w|=165.464 |grad|=38.8588
+NonConvexBundle::t=28 k=1 j=28 fcurrent=-4.127339e+03 reg=2.737830e+03 Remp=-6.865169e+03
+norm wbest=165.464 dist=47.3673 sumdist=17688.3
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=318
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.245940e+03 dual=-4.245952e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=28 nfeval=28 f=-4.127339e+03 fbest=-4.127339e+03 Rbest=-6.865169e+03 tbest=28 dual=-4.245952e+03 gap=118.614 =2.87386%
+===== () ===========
+function evaluation fval=-3952.6 |w|=165.997 |grad|=87.8337
+NonConvexBundle::t=29 k=1 j=29 fcurrent=-3.952596e+03 reg=2.755495e+03 Remp=-6.708091e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=314
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.244807e+03 dual=-4.244827e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=29 nfeval=29 f=-3.952596e+03 fbest=-4.127339e+03 Rbest=-6.865169e+03 tbest=28 dual=-4.244827e+03 gap=117.489 =2.84660%
+===== () ===========
+function evaluation fval=-4149.15 |w|=165.888 |grad|=33.844
+NonConvexBundle::t=30 k=1 j=30 fcurrent=-4.149153e+03 reg=2.751899e+03 Remp=-6.901052e+03
+norm wbest=165.888 dist=13.6257 sumdist=17701.9
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=328
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.242313e+03 dual=-4.242337e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=30 nfeval=30 f=-4.149153e+03 fbest=-4.149153e+03 Rbest=-6.901052e+03 tbest=30 dual=-4.242337e+03 gap=93.1841 =2.24586%
+===== () ===========
+function evaluation fval=-4160.46 |w|=165.977 |grad|=11.2854
+NonConvexBundle::t=31 k=1 j=31 fcurrent=-4.160462e+03 reg=2.754833e+03 Remp=-6.915296e+03
+norm wbest=165.977 dist=8.73173 sumdist=17710.6
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=386
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.236720e+03 dual=-4.236760e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=31 nfeval=31 f=-4.160462e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.236760e+03 gap=76.2975 =1.83387%
+===== () ===========
+function evaluation fval=-3911.72 |w|=166.463 |grad|=90.4172
+NonConvexBundle::t=32 k=1 j=32 fcurrent=-3.911724e+03 reg=2.771003e+03 Remp=-6.682727e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=566
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.216442e+03 dual=-4.216479e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=32 nfeval=32 f=-3.911724e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.216479e+03 gap=56.0161 =1.34639%
+===== () ===========
+function evaluation fval=-3685.11 |w|=169.066 |grad|=126.544
+NonConvexBundle::t=33 k=1 j=33 fcurrent=-3.685107e+03 reg=2.858317e+03 Remp=-6.543424e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=483
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.214041e+03 dual=-4.214077e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=33 nfeval=33 f=-3.685107e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.214077e+03 gap=53.6149 =1.28868%
+===== () ===========
+function evaluation fval=-4045.52 |w|=168.917 |grad|=67.5378
+NonConvexBundle::t=34 k=1 j=34 fcurrent=-4.045517e+03 reg=2.853304e+03 Remp=-6.898820e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=462
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.210492e+03 dual=-4.210531e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=34 nfeval=34 f=-4.045517e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.210531e+03 gap=50.0681 =1.20343%
+===== () ===========
+function evaluation fval=-4113.34 |w|=168.66 |grad|=45.5619
+NonConvexBundle::t=35 k=1 j=35 fcurrent=-4.113343e+03 reg=2.844619e+03 Remp=-6.957962e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=424
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.206896e+03 dual=-4.206933e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=35 nfeval=35 f=-4.113343e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.206933e+03 gap=46.4706 =1.11696%
+===== () ===========
+function evaluation fval=-4030.01 |w|=168.138 |grad|=76.1838
+NonConvexBundle::t=36 k=1 j=36 fcurrent=-4.030015e+03 reg=2.827048e+03 Remp=-6.857063e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=390
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.202810e+03 dual=-4.202826e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=36 nfeval=36 f=-4.030015e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.202826e+03 gap=42.3639 =1.01825%
+===== () ===========
+function evaluation fval=-4107.11 |w|=167.174 |grad|=51.6067
+NonConvexBundle::t=37 k=1 j=37 fcurrent=-4.107108e+03 reg=2.794728e+03 Remp=-6.901837e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=390
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.202078e+03 dual=-4.202091e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=37 nfeval=37 f=-4.107108e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.202091e+03 gap=41.6286 =1.00058%
+===== () ===========
+function evaluation fval=-4136.97 |w|=167.226 |grad|=39.8201
+NonConvexBundle::t=38 k=1 j=38 fcurrent=-4.136966e+03 reg=2.796446e+03 Remp=-6.933412e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=342
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.200091e+03 dual=-4.200119e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=38 nfeval=38 f=-4.136966e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.200119e+03 gap=39.6566 =0.95318%
+===== () ===========
+function evaluation fval=-4108.91 |w|=167.533 |grad|=53.3195
+NonConvexBundle::t=39 k=1 j=39 fcurrent=-4.108909e+03 reg=2.806720e+03 Remp=-6.915629e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=346
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.199433e+03 dual=-4.199445e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=39 nfeval=39 f=-4.108909e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.199445e+03 gap=38.9827 =0.93698%
+===== () ===========
+function evaluation fval=-4141.89 |w|=167.405 |grad|=29.6783
+NonConvexBundle::t=40 k=1 j=40 fcurrent=-4.141887e+03 reg=2.802449e+03 Remp=-6.944336e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=345
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.198459e+03 dual=-4.198479e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=40 nfeval=40 f=-4.141887e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.198479e+03 gap=38.0168 =0.91376%
+===== () ===========
+function evaluation fval=-4141.53 |w|=167.321 |grad|=37.1853
+NonConvexBundle::t=41 k=1 j=41 fcurrent=-4.141531e+03 reg=2.799625e+03 Remp=-6.941156e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=335
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.197212e+03 dual=-4.197234e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=41 nfeval=41 f=-4.141531e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.197234e+03 gap=36.7711 =0.88382%
+===== () ===========
+function evaluation fval=-4155.72 |w|=167.282 |grad|=24.6373
+NonConvexBundle::t=42 k=1 j=42 fcurrent=-4.155718e+03 reg=2.798322e+03 Remp=-6.954040e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=325
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.196794e+03 dual=-4.196822e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=42 nfeval=42 f=-4.155718e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.196822e+03 gap=36.3596 =0.87393%
+===== () ===========
+function evaluation fval=-4158.61 |w|=167.266 |grad|=4.30424
+NonConvexBundle::t=43 k=1 j=43 fcurrent=-4.158611e+03 reg=2.797800e+03 Remp=-6.956410e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=372
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.179406e+03 dual=-4.179444e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=43 nfeval=43 f=-4.158611e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.179444e+03 gap=18.9814 =0.45623%
+===== () ===========
+function evaluation fval=-3780.76 |w|=165.301 |grad|=114.625
+NonConvexBundle::t=44 k=1 j=44 fcurrent=-3.780764e+03 reg=2.732457e+03 Remp=-6.513221e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=378
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.176989e+03 dual=-4.176998e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=44 nfeval=44 f=-3.780764e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.176998e+03 gap=16.536 =0.39745%
+===== () ===========
+function evaluation fval=-4040.79 |w|=164.886 |grad|=70.3575
+NonConvexBundle::t=45 k=1 j=45 fcurrent=-4.040791e+03 reg=2.718747e+03 Remp=-6.759538e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=365
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.175473e+03 dual=-4.175484e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=45 nfeval=45 f=-4.040791e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.175484e+03 gap=15.022 =0.36107%
+===== () ===========
+function evaluation fval=-4030.53 |w|=164.879 |grad|=74.7412
+NonConvexBundle::t=46 k=1 j=46 fcurrent=-4.030532e+03 reg=2.718497e+03 Remp=-6.749029e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=355
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.174670e+03 dual=-4.174696e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=46 nfeval=46 f=-4.030532e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.174696e+03 gap=14.2334 =0.34211%
+===== () ===========
+function evaluation fval=-4134.14 |w|=164.818 |grad|=47.1112
+NonConvexBundle::t=47 k=1 j=47 fcurrent=-4.134142e+03 reg=2.716490e+03 Remp=-6.850632e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=348
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.173887e+03 dual=-4.173906e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=47 nfeval=47 f=-4.134142e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.173906e+03 gap=13.4438 =0.32313%
+===== () ===========
+function evaluation fval=-4106.03 |w|=164.916 |grad|=53.36
+NonConvexBundle::t=48 k=1 j=48 fcurrent=-4.106028e+03 reg=2.719736e+03 Remp=-6.825764e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=323
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.173543e+03 dual=-4.173580e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=48 nfeval=48 f=-4.106028e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.173580e+03 gap=13.1179 =0.31530%
+===== () ===========
+function evaluation fval=-4142.84 |w|=164.949 |grad|=41.1362
+NonConvexBundle::t=49 k=1 j=49 fcurrent=-4.142844e+03 reg=2.720821e+03 Remp=-6.863665e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=318
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.173369e+03 dual=-4.173383e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=49 nfeval=49 f=-4.142844e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.173383e+03 gap=12.9206 =0.31056%
+===== () ===========
+function evaluation fval=-4149.87 |w|=164.986 |grad|=37.8114
+NonConvexBundle::t=50 k=1 j=50 fcurrent=-4.149865e+03 reg=2.722046e+03 Remp=-6.871911e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=320
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.173229e+03 dual=-4.173258e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=50 nfeval=50 f=-4.149865e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.173258e+03 gap=12.7956 =0.30755%
+===== () ===========
+function evaluation fval=-4151.62 |w|=164.999 |grad|=33.3775
+NonConvexBundle::t=51 k=1 j=51 fcurrent=-4.151615e+03 reg=2.722460e+03 Remp=-6.874075e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=320
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.173162e+03 dual=-4.173174e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=51 nfeval=51 f=-4.151615e+03 fbest=-4.160462e+03 Rbest=-6.915296e+03 tbest=31 dual=-4.173174e+03 gap=12.7114 =0.30553%
+===== () ===========
+function evaluation fval=-4161.81 |w|=165.032 |grad|=23.9478
+NonConvexBundle::t=52 k=1 j=52 fcurrent=-4.161813e+03 reg=2.723549e+03 Remp=-6.885362e+03
+norm wbest=165.032 dist=9.08556 sumdist=17719.7
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=321
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.173077e+03 dual=-4.173116e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=52 nfeval=52 f=-4.161813e+03 fbest=-4.161813e+03 Rbest=-6.885362e+03 tbest=52 dual=-4.173116e+03 gap=11.3033 =0.27160%
+===== () ===========
+function evaluation fval=-4154.79 |w|=165.101 |grad|=32.6642
+NonConvexBundle::t=53 k=1 j=53 fcurrent=-4.154792e+03 reg=2.725821e+03 Remp=-6.880613e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=341
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.172747e+03 dual=-4.172757e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=53 nfeval=53 f=-4.154792e+03 fbest=-4.161813e+03 Rbest=-6.885362e+03 tbest=52 dual=-4.172757e+03 gap=10.9435 =0.26295%
+===== () ===========
+function evaluation fval=-4157.25 |w|=165.373 |grad|=21.9912
+NonConvexBundle::t=54 k=1 j=54 fcurrent=-4.157254e+03 reg=2.734823e+03 Remp=-6.892077e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=332
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.172653e+03 dual=-4.172693e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=54 nfeval=54 f=-4.157254e+03 fbest=-4.161813e+03 Rbest=-6.885362e+03 tbest=52 dual=-4.172693e+03 gap=10.8795 =0.26141%
+===== () ===========
+function evaluation fval=-4161.48 |w|=165.422 |grad|=19.8049
+NonConvexBundle::t=55 k=1 j=55 fcurrent=-4.161480e+03 reg=2.736434e+03 Remp=-6.897914e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=333
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.172594e+03 dual=-4.172623e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=55 nfeval=55 f=-4.161480e+03 fbest=-4.161813e+03 Rbest=-6.885362e+03 tbest=52 dual=-4.172623e+03 gap=10.8096 =0.25973%
+===== () ===========
+function evaluation fval=-4160.77 |w|=165.475 |grad|=26.1585
+NonConvexBundle::t=56 k=1 j=56 fcurrent=-4.160772e+03 reg=2.738185e+03 Remp=-6.898957e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=358
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.172492e+03 dual=-4.172505e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=56 nfeval=56 f=-4.160772e+03 fbest=-4.161813e+03 Rbest=-6.885362e+03 tbest=52 dual=-4.172505e+03 gap=10.6921 =0.25691%
+===== () ===========
+function evaluation fval=-4154.15 |w|=165.586 |grad|=28.4496
+NonConvexBundle::t=57 k=1 j=57 fcurrent=-4.154152e+03 reg=2.741863e+03 Remp=-6.896015e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=342
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.172414e+03 dual=-4.172438e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=57 nfeval=57 f=-4.154152e+03 fbest=-4.161813e+03 Rbest=-6.885362e+03 tbest=52 dual=-4.172438e+03 gap=10.6247 =0.25529%
+===== () ===========
+function evaluation fval=-4163.89 |w|=165.606 |grad|=20.4419
+NonConvexBundle::t=58 k=1 j=58 fcurrent=-4.163888e+03 reg=2.742521e+03 Remp=-6.906410e+03
+norm wbest=165.606 dist=0.844845 sumdist=17720.6
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=327
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.172321e+03 dual=-4.172336e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=58 nfeval=58 f=-4.163888e+03 fbest=-4.163888e+03 Rbest=-6.906410e+03 tbest=58 dual=-4.172336e+03 gap=8.44761 =0.20288%
+===== () ===========
+function evaluation fval=-4162.15 |w|=165.659 |grad|=15.4092
+NonConvexBundle::t=59 k=1 j=59 fcurrent=-4.162152e+03 reg=2.744282e+03 Remp=-6.906434e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=351
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.172215e+03 dual=-4.172251e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=59 nfeval=59 f=-4.162152e+03 fbest=-4.163888e+03 Rbest=-6.906410e+03 tbest=58 dual=-4.172251e+03 gap=8.3622 =0.20083%
+===== () ===========
+function evaluation fval=-4160.07 |w|=165.757 |grad|=22.4105
+NonConvexBundle::t=60 k=1 j=60 fcurrent=-4.160065e+03 reg=2.747553e+03 Remp=-6.907618e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=315
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.172139e+03 dual=-4.172165e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=60 nfeval=60 f=-4.160065e+03 fbest=-4.163888e+03 Rbest=-6.906410e+03 tbest=58 dual=-4.172165e+03 gap=8.27682 =0.19878%
+===== () ===========
+function evaluation fval=-4165.09 |w|=165.789 |grad|=7.68125
+NonConvexBundle::t=61 k=1 j=61 fcurrent=-4.165088e+03 reg=2.748612e+03 Remp=-6.913700e+03
+norm wbest=165.789 dist=0.678999 sumdist=17721.3
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=312
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.171907e+03 dual=-4.171934e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=61 nfeval=61 f=-4.165088e+03 fbest=-4.165088e+03 Rbest=-6.913700e+03 tbest=61 dual=-4.171934e+03 gap=6.84646 =0.16438%
+===== () ===========
+function evaluation fval=-4164.68 |w|=166.042 |grad|=18.2829
+NonConvexBundle::t=62 k=1 j=62 fcurrent=-4.164682e+03 reg=2.757004e+03 Remp=-6.921686e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=314
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.171844e+03 dual=-4.171863e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=62 nfeval=62 f=-4.164682e+03 fbest=-4.165088e+03 Rbest=-6.913700e+03 tbest=61 dual=-4.171863e+03 gap=6.77482 =0.16266%
+===== () ===========
+function evaluation fval=-4165.21 |w|=166.076 |grad|=7.4812
+NonConvexBundle::t=63 k=1 j=63 fcurrent=-4.165213e+03 reg=2.758122e+03 Remp=-6.923335e+03
+norm wbest=166.076 dist=0.923225 sumdist=17722.2
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=321
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.171712e+03 dual=-4.171742e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=63 nfeval=63 f=-4.165213e+03 fbest=-4.165213e+03 Rbest=-6.923335e+03 tbest=63 dual=-4.171742e+03 gap=6.52899 =0.15675%
+===== () ===========
+function evaluation fval=-4161.22 |w|=166.164 |grad|=21.1924
+NonConvexBundle::t=64 k=1 j=64 fcurrent=-4.161220e+03 reg=2.761054e+03 Remp=-6.922273e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=323
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.171592e+03 dual=-4.171630e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=64 nfeval=64 f=-4.161220e+03 fbest=-4.165213e+03 Rbest=-6.923335e+03 tbest=63 dual=-4.171630e+03 gap=6.41685 =0.15406%
+===== () ===========
+function evaluation fval=-4156.32 |w|=166.182 |grad|=24.4178
+NonConvexBundle::t=65 k=1 j=65 fcurrent=-4.156321e+03 reg=2.761654e+03 Remp=-6.917976e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=308
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.171477e+03 dual=-4.171517e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=65 nfeval=65 f=-4.156321e+03 fbest=-4.165213e+03 Rbest=-6.923335e+03 tbest=63 dual=-4.171517e+03 gap=6.30379 =0.15134%
+===== () ===========
+function evaluation fval=-4165.11 |w|=166.186 |grad|=7.37211
+NonConvexBundle::t=66 k=1 j=66 fcurrent=-4.165113e+03 reg=2.761795e+03 Remp=-6.926908e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=318
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.171201e+03 dual=-4.171226e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=66 nfeval=66 f=-4.165113e+03 fbest=-4.165213e+03 Rbest=-6.923335e+03 tbest=63 dual=-4.171226e+03 gap=6.01281 =0.14436%
+===== () ===========
+function evaluation fval=-4165.62 |w|=166.311 |grad|=1.32006
+NonConvexBundle::t=67 k=1 j=67 fcurrent=-4.165620e+03 reg=2.765940e+03 Remp=-6.931559e+03
+norm wbest=166.311 dist=0.980549 sumdist=17723.2
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=352
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.167728e+03 dual=-4.167762e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=67 nfeval=67 f=-4.165620e+03 fbest=-4.165620e+03 Rbest=-6.931559e+03 tbest=67 dual=-4.167762e+03 gap=2.14261 =0.05144%
+===== () ===========
+DONE NonConvexBundle numfeval=67
+
+NCB = 
+
+           f: -4.1656e+03
+    numFEVAL: 67
+    ExecTime: 0.8900
+
+BEGIN NonConvexBundle
+NonConvexBundle options:
+                     epsilon: 1.0000e-03
+                     maxiter: 500
+                       maxCP: 100
+                   fpositive: 0
+                computeGapQP: 1
+                 updateDiary: 1
+                   verbosity: 2
+    cuttingPlanAtOptimumDual: 0
+                          LS: 0
+                   nonconvex: 1
+                      solver: 'kowalczyk'
+
+NonConvexBundle::dimW=10000
+function evaluation fval=47495.2 |w|=0 |grad|=1599.88
+NonConvexBundle::t=1 k=1 j=1 fcurrent=4.749525e+04 reg=0.000000e+00 Remp=4.749525e+04
+norm wbest=0 dist=0 sumdist=0
+NCBlight::quadratic programming : primal = -6.351546e+06 dual=-6.351546e+06 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=1 nfeval=1 f=4.749525e+04 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-6.351546e+06 gap=6.39904e+06 =13473.01309%
+===== () ===========
+function evaluation fval=4.73565e+08 |w|=7999.4 |grad|=119989
+NonConvexBundle::t=2 k=1 j=2 fcurrent=4.735645e+08 reg=6.399041e+06 Remp=4.671655e+08
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=1
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.751806e+06 dual=-4.751806e+06 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=2 nfeval=2 f=4.735645e+08 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-4.751806e+06 gap=4.7993e+06 =10104.80209%
+===== () ===========
+function evaluation fval=1.15228e+08 |w|=3999.78 |grad|=59194.2
+NonConvexBundle::t=3 k=1 j=3 fcurrent=1.152280e+08 reg=1.599821e+06 Remp=1.136281e+08
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=4
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -2.752112e+06 dual=-2.752112e+06 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=3 nfeval=3 f=1.152280e+08 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-2.752112e+06 gap=2.79961e+06 =5894.49871%
+===== () ===========
+function evaluation fval=2.72429e+07 |w|=1999.91 |grad|=28797
+NonConvexBundle::t=4 k=1 j=4 fcurrent=2.724288e+07 reg=3.999639e+05 Remp=2.684291e+07
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=9
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -1.452299e+06 dual=-1.452299e+06 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=4 nfeval=4 f=2.724288e+07 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-1.452299e+06 gap=1.49979e+06 =3157.77790%
+===== () ===========
+function evaluation fval=6.04645e+06 |w|=999.961 |grad|=13598.5
+NonConvexBundle::t=5 k=1 j=5 fcurrent=6.046451e+06 reg=9.999216e+04 Remp=5.946459e+06
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=25
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -7.274000e+05 dual=-7.274000e+05 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=5 nfeval=5 f=6.046451e+06 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-7.274000e+05 gap=774895 =1631.52167%
+===== () ===========
+function evaluation fval=1.14729e+06 |w|=499.982 |grad|=5999.31
+NonConvexBundle::t=6 k=1 j=6 fcurrent=1.147288e+06 reg=2.499819e+04 Remp=1.122289e+06
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=47
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -3.462019e+05 dual=-3.462019e+05 gap=-0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=6 nfeval=6 f=1.147288e+06 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-3.462019e+05 gap=393697 =828.91910%
+===== () ===========
+function evaluation fval=122470 |w|=249.991 |grad|=2199.71
+NonConvexBundle::t=7 k=1 j=7 fcurrent=1.224700e+05 reg=6.249568e+03 Remp=1.162204e+05
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=106
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -1.509157e+05 dual=-1.509157e+05 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=7 nfeval=7 f=1.224700e+05 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-1.509157e+05 gap=198411 =417.74912%
+===== () ===========
+function evaluation fval=-3124.4 |w|=124.995 |grad|=50.004
+NonConvexBundle::t=8 k=1 j=8 fcurrent=-3.124402e+03 reg=1.562387e+03 Remp=-4.686789e+03
+norm wbest=124.995 dist=15623.9 sumdist=15623.9
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=166
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -6.005617e+03 dual=-6.005617e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=8 nfeval=8 f=-3.124402e+03 fbest=-3.124402e+03 Rbest=-4.686789e+03 tbest=8 dual=-6.005617e+03 gap=2881.22 =92.21652%
+===== () ===========
+function evaluation fval=19752.4 |w|=191.448 |grad|=1309.89
+NonConvexBundle::t=9 k=1 j=9 fcurrent=1.975238e+04 reg=3.665227e+03 Remp=1.608716e+04
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=241
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -5.267953e+03 dual=-5.267953e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=9 nfeval=9 f=1.975238e+04 fbest=-3.124402e+03 Rbest=-4.686789e+03 tbest=8 dual=-5.267953e+03 gap=2143.55 =68.60674%
+===== () ===========
+function evaluation fval=-2491.25 |w|=172.365 |grad|=1019.83
+NonConvexBundle::t=10 k=1 j=10 fcurrent=-2.491251e+03 reg=2.970969e+03 Remp=-5.462220e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=245
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -5.162978e+03 dual=-5.162978e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=10 nfeval=10 f=-2.491251e+03 fbest=-3.124402e+03 Rbest=-4.686789e+03 tbest=8 dual=-5.162978e+03 gap=2038.58 =65.24689%
+===== () ===========
+function evaluation fval=-4113.65 |w|=169.79 |grad|=28.8772
+NonConvexBundle::t=11 k=1 j=11 fcurrent=-4.113655e+03 reg=2.882872e+03 Remp=-6.996527e+03
+norm wbest=169.79 dist=2017.05 sumdist=17640.9
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=296
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -5.028652e+03 dual=-5.028700e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=11 nfeval=11 f=-4.113655e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-5.028700e+03 gap=915.045 =22.24409%
+===== () ===========
+function evaluation fval=237.696 |w|=172.871 |grad|=274.051
+NonConvexBundle::t=12 k=1 j=12 fcurrent=2.376965e+02 reg=2.988426e+03 Remp=-2.750730e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=333
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.691784e+03 dual=-4.691795e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=12 nfeval=12 f=2.376965e+02 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.691795e+03 gap=578.14 =14.05418%
+===== () ===========
+function evaluation fval=387.497 |w|=163.619 |grad|=323.554
+NonConvexBundle::t=13 k=1 j=13 fcurrent=3.874965e+02 reg=2.677107e+03 Remp=-2.289610e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=334
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.665917e+03 dual=-4.665936e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=13 nfeval=13 f=3.874965e+02 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.665936e+03 gap=552.281 =13.42555%
+===== () ===========
+function evaluation fval=-2918.1 |w|=159.928 |grad|=141.165
+NonConvexBundle::t=14 k=1 j=14 fcurrent=-2.918103e+03 reg=2.557689e+03 Remp=-5.475792e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=321
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.577941e+03 dual=-4.577965e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=14 nfeval=14 f=-2.918103e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.577965e+03 gap=464.31 =11.28704%
+===== () ===========
+function evaluation fval=-2473.93 |w|=157.681 |grad|=211.297
+NonConvexBundle::t=15 k=1 j=15 fcurrent=-2.473927e+03 reg=2.486333e+03 Remp=-4.960260e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=296
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.476943e+03 dual=-4.476949e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=15 nfeval=15 f=-2.473927e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.476949e+03 gap=363.294 =8.83141%
+===== () ===========
+function evaluation fval=-3752.9 |w|=161.733 |grad|=94.431
+NonConvexBundle::t=16 k=1 j=16 fcurrent=-3.752901e+03 reg=2.615770e+03 Remp=-6.368671e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=350
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.450308e+03 dual=-4.450340e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=16 nfeval=16 f=-3.752901e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.450340e+03 gap=336.685 =8.18457%
+===== () ===========
+function evaluation fval=-2477.18 |w|=162.128 |grad|=219.62
+NonConvexBundle::t=17 k=1 j=17 fcurrent=-2.477179e+03 reg=2.628562e+03 Remp=-5.105741e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=294
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.416049e+03 dual=-4.416069e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=17 nfeval=17 f=-2.477179e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.416069e+03 gap=302.414 =7.35147%
+===== () ===========
+function evaluation fval=-3775.88 |w|=161.923 |grad|=96.0237
+NonConvexBundle::t=18 k=1 j=18 fcurrent=-3.775880e+03 reg=2.621910e+03 Remp=-6.397790e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=298
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.369426e+03 dual=-4.369449e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=18 nfeval=18 f=-3.775880e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.369449e+03 gap=255.794 =6.21816%
+===== () ===========
+function evaluation fval=-3832.2 |w|=163.057 |grad|=91.4278
+NonConvexBundle::t=19 k=1 j=19 fcurrent=-3.832197e+03 reg=2.658749e+03 Remp=-6.490945e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=295
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.346801e+03 dual=-4.346823e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=19 nfeval=19 f=-3.832197e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.346823e+03 gap=233.168 =5.66816%
+===== () ===========
+function evaluation fval=-4094.72 |w|=163.877 |grad|=34.8124
+NonConvexBundle::t=20 k=1 j=20 fcurrent=-4.094723e+03 reg=2.685583e+03 Remp=-6.780306e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=502
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.315324e+03 dual=-4.315364e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=20 nfeval=20 f=-4.094723e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.315364e+03 gap=201.709 =4.90340%
+===== () ===========
+function evaluation fval=-2206.31 |w|=165.003 |grad|=244.576
+NonConvexBundle::t=21 k=1 j=21 fcurrent=-2.206310e+03 reg=2.722595e+03 Remp=-4.928904e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=397
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.298508e+03 dual=-4.298549e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=21 nfeval=21 f=-2.206310e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.298549e+03 gap=184.894 =4.49464%
+===== () ===========
+function evaluation fval=-3401.65 |w|=164.792 |grad|=154.728
+NonConvexBundle::t=22 k=1 j=22 fcurrent=-3.401647e+03 reg=2.715631e+03 Remp=-6.117279e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=435
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.283917e+03 dual=-4.283936e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=22 nfeval=22 f=-3.401647e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.283936e+03 gap=170.281 =4.13942%
+===== () ===========
+function evaluation fval=-3619.24 |w|=165.034 |grad|=131.719
+NonConvexBundle::t=23 k=1 j=23 fcurrent=-3.619238e+03 reg=2.723625e+03 Remp=-6.342863e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=311
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.275576e+03 dual=-4.275600e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=23 nfeval=23 f=-3.619238e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.275600e+03 gap=161.945 =3.93676%
+===== () ===========
+function evaluation fval=-3966.04 |w|=165.057 |grad|=83.5668
+NonConvexBundle::t=24 k=1 j=24 fcurrent=-3.966039e+03 reg=2.724385e+03 Remp=-6.690424e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=315
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.266113e+03 dual=-4.266123e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=24 nfeval=24 f=-3.966039e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.266123e+03 gap=152.468 =3.70639%
+===== () ===========
+function evaluation fval=-3886.34 |w|=165.271 |grad|=97.1573
+NonConvexBundle::t=25 k=1 j=25 fcurrent=-3.886338e+03 reg=2.731461e+03 Remp=-6.617799e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=284
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.260087e+03 dual=-4.260122e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=25 nfeval=25 f=-3.886338e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.260122e+03 gap=146.467 =3.56050%
+===== () ===========
+function evaluation fval=-4110.91 |w|=165.233 |grad|=46.908
+NonConvexBundle::t=26 k=1 j=26 fcurrent=-4.110912e+03 reg=2.730197e+03 Remp=-6.841108e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=292
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.254954e+03 dual=-4.254981e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=26 nfeval=26 f=-4.110912e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.254981e+03 gap=141.326 =3.43553%
+===== () ===========
+function evaluation fval=-3970.02 |w|=165.525 |grad|=82.0834
+NonConvexBundle::t=27 k=1 j=27 fcurrent=-3.970016e+03 reg=2.739864e+03 Remp=-6.709880e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=307
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.253379e+03 dual=-4.253397e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=27 nfeval=27 f=-3.970016e+03 fbest=-4.113655e+03 Rbest=-6.996527e+03 tbest=11 dual=-4.253397e+03 gap=139.742 =3.39703%
+===== () ===========
+function evaluation fval=-4127.59 |w|=165.483 |grad|=38.8187
+NonConvexBundle::t=28 k=1 j=28 fcurrent=-4.127587e+03 reg=2.738460e+03 Remp=-6.866047e+03
+norm wbest=165.483 dist=46.607 sumdist=17687.5
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=336
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.245995e+03 dual=-4.246011e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=28 nfeval=28 f=-4.127587e+03 fbest=-4.127587e+03 Rbest=-6.866047e+03 tbest=28 dual=-4.246011e+03 gap=118.424 =2.86908%
+===== () ===========
+function evaluation fval=-3918.05 |w|=166.024 |grad|=93.9173
+NonConvexBundle::t=29 k=1 j=29 fcurrent=-3.918046e+03 reg=2.756397e+03 Remp=-6.674443e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=329
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.244766e+03 dual=-4.244786e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=29 nfeval=29 f=-3.918046e+03 fbest=-4.127587e+03 Rbest=-6.866047e+03 tbest=28 dual=-4.244786e+03 gap=117.198 =2.83939%
+===== () ===========
+function evaluation fval=-4139.68 |w|=165.909 |grad|=38.465
+NonConvexBundle::t=30 k=1 j=30 fcurrent=-4.139685e+03 reg=2.752581e+03 Remp=-6.892266e+03
+norm wbest=165.909 dist=14.493 sumdist=17702
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=321
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.242281e+03 dual=-4.242303e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=30 nfeval=30 f=-4.139685e+03 fbest=-4.139685e+03 Rbest=-6.892266e+03 tbest=30 dual=-4.242303e+03 gap=102.618 =2.47889%
+===== () ===========
+function evaluation fval=-4162.37 |w|=165.982 |grad|=11.1109
+NonConvexBundle::t=31 k=1 j=31 fcurrent=-4.162367e+03 reg=2.754992e+03 Remp=-6.917359e+03
+norm wbest=165.982 dist=8.01025 sumdist=17710
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=400
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.236855e+03 dual=-4.236895e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=31 nfeval=31 f=-4.162367e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.236895e+03 gap=74.5281 =1.79052%
+===== () ===========
+function evaluation fval=-3914.37 |w|=166.456 |grad|=90.0722
+NonConvexBundle::t=32 k=1 j=32 fcurrent=-3.914366e+03 reg=2.770776e+03 Remp=-6.685142e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=517
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.212285e+03 dual=-4.212303e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=32 nfeval=32 f=-3.914366e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.212303e+03 gap=49.9354 =1.19969%
+===== () ===========
+function evaluation fval=-3909.51 |w|=169.118 |grad|=94.0985
+NonConvexBundle::t=33 k=1 j=33 fcurrent=-3.909505e+03 reg=2.860087e+03 Remp=-6.769593e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=456
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.210967e+03 dual=-4.211006e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=33 nfeval=33 f=-3.909505e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.211006e+03 gap=48.639 =1.16854%
+===== () ===========
+function evaluation fval=-4107.23 |w|=168.932 |grad|=51.0373
+NonConvexBundle::t=34 k=1 j=34 fcurrent=-4.107228e+03 reg=2.853795e+03 Remp=-6.961023e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=420
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.207518e+03 dual=-4.207556e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=34 nfeval=34 f=-4.107228e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.207556e+03 gap=45.1893 =1.08566%
+===== () ===========
+function evaluation fval=-4121.76 |w|=168.474 |grad|=43.0884
+NonConvexBundle::t=35 k=1 j=35 fcurrent=-4.121756e+03 reg=2.838337e+03 Remp=-6.960093e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=410
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.202339e+03 dual=-4.202371e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=35 nfeval=35 f=-4.121756e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.202371e+03 gap=40.0041 =0.96109%
+===== () ===========
+function evaluation fval=-3923.04 |w|=167.269 |grad|=93.1624
+NonConvexBundle::t=36 k=1 j=36 fcurrent=-3.923045e+03 reg=2.797888e+03 Remp=-6.720933e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=403
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.200629e+03 dual=-4.200652e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=36 nfeval=36 f=-3.923045e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.200652e+03 gap=38.285 =0.91979%
+===== () ===========
+function evaluation fval=-4127.05 |w|=167.021 |grad|=48.0946
+NonConvexBundle::t=37 k=1 j=37 fcurrent=-4.127050e+03 reg=2.789611e+03 Remp=-6.916661e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=381
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.198914e+03 dual=-4.198932e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=37 nfeval=37 f=-4.127050e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.198932e+03 gap=36.5652 =0.87847%
+===== () ===========
+function evaluation fval=-4153.38 |w|=167.107 |grad|=28.7961
+NonConvexBundle::t=38 k=1 j=38 fcurrent=-4.153377e+03 reg=2.792463e+03 Remp=-6.945840e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=399
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.198292e+03 dual=-4.198315e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=38 nfeval=38 f=-4.153377e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.198315e+03 gap=35.9476 =0.86363%
+===== () ===========
+function evaluation fval=-4144.83 |w|=167.179 |grad|=36.066
+NonConvexBundle::t=39 k=1 j=39 fcurrent=-4.144830e+03 reg=2.794890e+03 Remp=-6.939719e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=410
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.197553e+03 dual=-4.197573e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=39 nfeval=39 f=-4.144830e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.197573e+03 gap=35.2056 =0.84581%
+===== () ===========
+function evaluation fval=-4114.39 |w|=167.335 |grad|=46.2402
+NonConvexBundle::t=40 k=1 j=40 fcurrent=-4.114395e+03 reg=2.800114e+03 Remp=-6.914508e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=419
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.196000e+03 dual=-4.196034e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=40 nfeval=40 f=-4.114395e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.196034e+03 gap=33.6671 =0.80884%
+===== () ===========
+function evaluation fval=-4147.42 |w|=167.5 |grad|=29.5036
+NonConvexBundle::t=41 k=1 j=41 fcurrent=-4.147416e+03 reg=2.805624e+03 Remp=-6.953040e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=402
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.195591e+03 dual=-4.195616e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=41 nfeval=41 f=-4.147416e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.195616e+03 gap=33.2485 =0.79879%
+===== () ===========
+function evaluation fval=-4150.11 |w|=167.416 |grad|=15.4232
+NonConvexBundle::t=42 k=1 j=42 fcurrent=-4.150114e+03 reg=2.802817e+03 Remp=-6.952931e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=434
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.191091e+03 dual=-4.191132e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=42 nfeval=42 f=-4.150114e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.191132e+03 gap=28.7648 =0.69107%
+===== () ===========
+function evaluation fval=-3997.4 |w|=167.233 |grad|=85.5454
+NonConvexBundle::t=43 k=1 j=43 fcurrent=-3.997402e+03 reg=2.796684e+03 Remp=-6.794086e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=378
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.188810e+03 dual=-4.188836e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=43 nfeval=43 f=-3.997402e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.188836e+03 gap=26.4689 =0.63591%
+===== () ===========
+function evaluation fval=-4119.27 |w|=166.731 |grad|=48.9798
+NonConvexBundle::t=44 k=1 j=44 fcurrent=-4.119273e+03 reg=2.779936e+03 Remp=-6.899210e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=411
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.188194e+03 dual=-4.188211e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=44 nfeval=44 f=-4.119273e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.188211e+03 gap=25.8443 =0.62090%
+===== () ===========
+function evaluation fval=-4123.77 |w|=166.811 |grad|=46.4512
+NonConvexBundle::t=45 k=1 j=45 fcurrent=-4.123766e+03 reg=2.782585e+03 Remp=-6.906351e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=376
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.187407e+03 dual=-4.187443e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=45 nfeval=45 f=-4.123766e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.187443e+03 gap=25.0753 =0.60243%
+===== () ===========
+function evaluation fval=-4149.64 |w|=166.872 |grad|=36.4398
+NonConvexBundle::t=46 k=1 j=46 fcurrent=-4.149636e+03 reg=2.784633e+03 Remp=-6.934269e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=384
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.187254e+03 dual=-4.187296e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=46 nfeval=46 f=-4.149636e+03 fbest=-4.162367e+03 Rbest=-6.917359e+03 tbest=31 dual=-4.187296e+03 gap=24.9284 =0.59890%
+===== () ===========
+function evaluation fval=-4162.43 |w|=166.831 |grad|=8.16515
+NonConvexBundle::t=47 k=1 j=47 fcurrent=-4.162430e+03 reg=2.783244e+03 Remp=-6.945674e+03
+norm wbest=166.831 dist=12.1803 sumdist=17722.2
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=416
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.185834e+03 dual=-4.185871e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=47 nfeval=47 f=-4.162430e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.185871e+03 gap=23.441 =0.56316%
+===== () ===========
+function evaluation fval=-4096.05 |w|=166.751 |grad|=56.5294
+NonConvexBundle::t=48 k=1 j=48 fcurrent=-4.096052e+03 reg=2.780588e+03 Remp=-6.876640e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=397
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.184374e+03 dual=-4.184408e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=48 nfeval=48 f=-4.096052e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.184408e+03 gap=21.9783 =0.52802%
+===== () ===========
+function evaluation fval=-4136.83 |w|=166.594 |grad|=36.2917
+NonConvexBundle::t=49 k=1 j=49 fcurrent=-4.136833e+03 reg=2.775371e+03 Remp=-6.912204e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=390
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.184069e+03 dual=-4.184110e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=49 nfeval=49 f=-4.136833e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.184110e+03 gap=21.6803 =0.52086%
+===== () ===========
+function evaluation fval=-4144.8 |w|=166.588 |grad|=35.198
+NonConvexBundle::t=50 k=1 j=50 fcurrent=-4.144802e+03 reg=2.775166e+03 Remp=-6.919968e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=416
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.183759e+03 dual=-4.183788e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=50 nfeval=50 f=-4.144802e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.183788e+03 gap=21.3585 =0.51313%
+===== () ===========
+function evaluation fval=-4138.85 |w|=166.581 |grad|=31.7928
+NonConvexBundle::t=51 k=1 j=51 fcurrent=-4.138845e+03 reg=2.774932e+03 Remp=-6.913777e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=392
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.183256e+03 dual=-4.183290e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=51 nfeval=51 f=-4.138845e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.183290e+03 gap=20.8602 =0.50115%
+===== () ===========
+function evaluation fval=-4131.54 |w|=166.563 |grad|=48.6351
+NonConvexBundle::t=52 k=1 j=52 fcurrent=-4.131538e+03 reg=2.774329e+03 Remp=-6.905867e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=398
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.183082e+03 dual=-4.183118e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=52 nfeval=52 f=-4.131538e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.183118e+03 gap=20.6881 =0.49702%
+===== () ===========
+function evaluation fval=-4153.07 |w|=166.536 |grad|=23.3368
+NonConvexBundle::t=53 k=1 j=53 fcurrent=-4.153071e+03 reg=2.773436e+03 Remp=-6.926507e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=408
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.182722e+03 dual=-4.182762e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=53 nfeval=53 f=-4.153071e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.182762e+03 gap=20.3325 =0.48848%
+===== () ===========
+function evaluation fval=-4146.15 |w|=166.519 |grad|=37.7265
+NonConvexBundle::t=54 k=1 j=54 fcurrent=-4.146155e+03 reg=2.772871e+03 Remp=-6.919026e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=387
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.182557e+03 dual=-4.182594e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=54 nfeval=54 f=-4.146155e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.182594e+03 gap=20.1638 =0.48442%
+===== () ===========
+function evaluation fval=-4156.1 |w|=166.488 |grad|=14.6317
+NonConvexBundle::t=55 k=1 j=55 fcurrent=-4.156103e+03 reg=2.771819e+03 Remp=-6.927921e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=416
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.181395e+03 dual=-4.181432e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=55 nfeval=55 f=-4.156103e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.181432e+03 gap=19.0021 =0.45651%
+===== () ===========
+function evaluation fval=-4122.61 |w|=166.57 |grad|=43.8121
+NonConvexBundle::t=56 k=1 j=56 fcurrent=-4.122613e+03 reg=2.774561e+03 Remp=-6.897174e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=415
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.181034e+03 dual=-4.181069e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=56 nfeval=56 f=-4.122613e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.181069e+03 gap=18.6389 =0.44779%
+===== () ===========
+function evaluation fval=-4158.42 |w|=166.572 |grad|=22.6778
+NonConvexBundle::t=57 k=1 j=57 fcurrent=-4.158422e+03 reg=2.774613e+03 Remp=-6.933035e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=397
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.180785e+03 dual=-4.180822e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=57 nfeval=57 f=-4.158422e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.180822e+03 gap=18.3923 =0.44187%
+===== () ===========
+function evaluation fval=-4149.8 |w|=166.551 |grad|=29.1274
+NonConvexBundle::t=58 k=1 j=58 fcurrent=-4.149804e+03 reg=2.773928e+03 Remp=-6.923732e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=381
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.180529e+03 dual=-4.180571e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=58 nfeval=58 f=-4.149804e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.180571e+03 gap=18.1407 =0.43582%
+===== () ===========
+function evaluation fval=-4156.65 |w|=166.551 |grad|=21.4836
+NonConvexBundle::t=59 k=1 j=59 fcurrent=-4.156649e+03 reg=2.773921e+03 Remp=-6.930570e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=405
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.180286e+03 dual=-4.180326e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=59 nfeval=59 f=-4.156649e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.180326e+03 gap=17.8957 =0.42993%
+===== () ===========
+function evaluation fval=-4154.03 |w|=166.549 |grad|=23.0424
+NonConvexBundle::t=60 k=1 j=60 fcurrent=-4.154027e+03 reg=2.773848e+03 Remp=-6.927875e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=400
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.180115e+03 dual=-4.180150e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=60 nfeval=60 f=-4.154027e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.180150e+03 gap=17.7203 =0.42572%
+===== () ===========
+function evaluation fval=-4160.02 |w|=166.547 |grad|=19.1744
+NonConvexBundle::t=61 k=1 j=61 fcurrent=-4.160016e+03 reg=2.773806e+03 Remp=-6.933822e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=384
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.179978e+03 dual=-4.180012e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=61 nfeval=61 f=-4.160016e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.180012e+03 gap=17.5826 =0.42241%
+===== () ===========
+function evaluation fval=-4160.06 |w|=166.543 |grad|=3.68546
+NonConvexBundle::t=62 k=1 j=62 fcurrent=-4.160063e+03 reg=2.773664e+03 Remp=-6.933727e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=515
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.172968e+03 dual=-4.173002e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=62 nfeval=62 f=-4.160063e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.173002e+03 gap=10.5724 =0.25400%
+===== () ===========
+function evaluation fval=-4065.38 |w|=167.003 |grad|=71.0637
+NonConvexBundle::t=63 k=1 j=63 fcurrent=-4.065383e+03 reg=2.788988e+03 Remp=-6.854371e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=433
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.172474e+03 dual=-4.172510e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=63 nfeval=63 f=-4.065383e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.172510e+03 gap=10.0799 =0.24216%
+===== () ===========
+function evaluation fval=-4128.1 |w|=166.91 |grad|=45.3684
+NonConvexBundle::t=64 k=1 j=64 fcurrent=-4.128104e+03 reg=2.785887e+03 Remp=-6.913991e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=411
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.172016e+03 dual=-4.172057e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=64 nfeval=64 f=-4.128104e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.172057e+03 gap=9.62704 =0.23128%
+===== () ===========
+function evaluation fval=-4119.16 |w|=166.892 |grad|=48.4752
+NonConvexBundle::t=65 k=1 j=65 fcurrent=-4.119159e+03 reg=2.785302e+03 Remp=-6.904460e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=410
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.171574e+03 dual=-4.171615e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=65 nfeval=65 f=-4.119159e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.171615e+03 gap=9.18552 =0.22068%
+===== () ===========
+function evaluation fval=-4133.95 |w|=166.879 |grad|=45.7658
+NonConvexBundle::t=66 k=1 j=66 fcurrent=-4.133949e+03 reg=2.784851e+03 Remp=-6.918799e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=401
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.171469e+03 dual=-4.171490e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=66 nfeval=66 f=-4.133949e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.171490e+03 gap=9.05985 =0.21766%
+===== () ===========
+function evaluation fval=-4153.81 |w|=166.858 |grad|=31.3259
+NonConvexBundle::t=67 k=1 j=67 fcurrent=-4.153808e+03 reg=2.784155e+03 Remp=-6.937963e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=411
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.171310e+03 dual=-4.171330e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=67 nfeval=67 f=-4.153808e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.171330e+03 gap=8.90002 =0.21382%
+===== () ===========
+function evaluation fval=-4150.56 |w|=166.875 |grad|=42.146
+NonConvexBundle::t=68 k=1 j=68 fcurrent=-4.150562e+03 reg=2.784722e+03 Remp=-6.935284e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=398
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.171214e+03 dual=-4.171255e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=68 nfeval=68 f=-4.150562e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.171255e+03 gap=8.82548 =0.21203%
+===== () ===========
+function evaluation fval=-4153.69 |w|=166.852 |grad|=35.8928
+NonConvexBundle::t=69 k=1 j=69 fcurrent=-4.153691e+03 reg=2.783964e+03 Remp=-6.937655e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=398
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.171110e+03 dual=-4.171149e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=69 nfeval=69 f=-4.153691e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.171149e+03 gap=8.71906 =0.20947%
+===== () ===========
+function evaluation fval=-4156.45 |w|=166.844 |grad|=29.1092
+NonConvexBundle::t=70 k=1 j=70 fcurrent=-4.156455e+03 reg=2.783677e+03 Remp=-6.940132e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=390
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.171034e+03 dual=-4.171075e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=70 nfeval=70 f=-4.156455e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.171075e+03 gap=8.64565 =0.20771%
+===== () ===========
+function evaluation fval=-4160.4 |w|=166.842 |grad|=25.0408
+NonConvexBundle::t=71 k=1 j=71 fcurrent=-4.160404e+03 reg=2.783621e+03 Remp=-6.944025e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=405
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170875e+03 dual=-4.170911e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=71 nfeval=71 f=-4.160404e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.170911e+03 gap=8.48132 =0.20376%
+===== () ===========
+function evaluation fval=-4156.53 |w|=166.82 |grad|=34.246
+NonConvexBundle::t=72 k=1 j=72 fcurrent=-4.156529e+03 reg=2.782882e+03 Remp=-6.939411e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=398
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170834e+03 dual=-4.170873e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=72 nfeval=72 f=-4.156529e+03 fbest=-4.162430e+03 Rbest=-6.945674e+03 tbest=47 dual=-4.170873e+03 gap=8.44351 =0.20285%
+===== () ===========
+function evaluation fval=-4164.16 |w|=166.813 |grad|=18.7695
+NonConvexBundle::t=73 k=1 j=73 fcurrent=-4.164163e+03 reg=2.782655e+03 Remp=-6.946818e+03
+norm wbest=166.813 dist=4.68452 sumdist=17726.9
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=421
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170799e+03 dual=-4.170825e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=73 nfeval=73 f=-4.164163e+03 fbest=-4.164163e+03 Rbest=-6.946818e+03 tbest=73 dual=-4.170825e+03 gap=6.66224 =0.15999%
+===== () ===========
+function evaluation fval=-4157.51 |w|=166.822 |grad|=33.9026
+NonConvexBundle::t=74 k=1 j=74 fcurrent=-4.157508e+03 reg=2.782954e+03 Remp=-6.940462e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=425
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170721e+03 dual=-4.170751e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=74 nfeval=74 f=-4.157508e+03 fbest=-4.164163e+03 Rbest=-6.946818e+03 tbest=73 dual=-4.170751e+03 gap=6.58757 =0.15820%
+===== () ===========
+function evaluation fval=-4162.77 |w|=166.808 |grad|=21.9893
+NonConvexBundle::t=75 k=1 j=75 fcurrent=-4.162771e+03 reg=2.782482e+03 Remp=-6.945253e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=407
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170687e+03 dual=-4.170714e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=75 nfeval=75 f=-4.162771e+03 fbest=-4.164163e+03 Rbest=-6.946818e+03 tbest=73 dual=-4.170714e+03 gap=6.55135 =0.15733%
+===== () ===========
+function evaluation fval=-4164.92 |w|=166.808 |grad|=19.1909
+NonConvexBundle::t=76 k=1 j=76 fcurrent=-4.164925e+03 reg=2.782498e+03 Remp=-6.947423e+03
+norm wbest=166.808 dist=0.47084 sumdist=17727.4
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=409
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170639e+03 dual=-4.170676e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=76 nfeval=76 f=-4.164925e+03 fbest=-4.164925e+03 Rbest=-6.947423e+03 tbest=76 dual=-4.170676e+03 gap=5.75157 =0.13810%
+===== () ===========
+function evaluation fval=-4164.05 |w|=166.798 |grad|=20.0935
+NonConvexBundle::t=77 k=1 j=77 fcurrent=-4.164053e+03 reg=2.782153e+03 Remp=-6.946206e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=402
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170606e+03 dual=-4.170631e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=77 nfeval=77 f=-4.164053e+03 fbest=-4.164925e+03 Rbest=-6.947423e+03 tbest=76 dual=-4.170631e+03 gap=5.70629 =0.13701%
+===== () ===========
+function evaluation fval=-4160.94 |w|=166.801 |grad|=30.9512
+NonConvexBundle::t=78 k=1 j=78 fcurrent=-4.160943e+03 reg=2.782254e+03 Remp=-6.943196e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=419
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170580e+03 dual=-4.170604e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=78 nfeval=78 f=-4.160943e+03 fbest=-4.164925e+03 Rbest=-6.947423e+03 tbest=76 dual=-4.170604e+03 gap=5.67903 =0.13635%
+===== () ===========
+function evaluation fval=-4164.47 |w|=166.787 |grad|=8.53963
+NonConvexBundle::t=79 k=1 j=79 fcurrent=-4.164471e+03 reg=2.781791e+03 Remp=-6.946262e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=449
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170344e+03 dual=-4.170369e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=79 nfeval=79 f=-4.164471e+03 fbest=-4.164925e+03 Rbest=-6.947423e+03 tbest=76 dual=-4.170369e+03 gap=5.4444 =0.13072%
+===== () ===========
+function evaluation fval=-4157.67 |w|=166.776 |grad|=37.1083
+NonConvexBundle::t=80 k=1 j=80 fcurrent=-4.157674e+03 reg=2.781408e+03 Remp=-6.939083e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=425
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170294e+03 dual=-4.170333e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=80 nfeval=80 f=-4.157674e+03 fbest=-4.164925e+03 Rbest=-6.947423e+03 tbest=76 dual=-4.170333e+03 gap=5.40774 =0.12984%
+===== () ===========
+function evaluation fval=-4163.04 |w|=166.761 |grad|=24.2584
+NonConvexBundle::t=81 k=1 j=81 fcurrent=-4.163039e+03 reg=2.780908e+03 Remp=-6.943947e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=409
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170247e+03 dual=-4.170282e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=81 nfeval=81 f=-4.163039e+03 fbest=-4.164925e+03 Rbest=-6.947423e+03 tbest=76 dual=-4.170282e+03 gap=5.35698 =0.12862%
+===== () ===========
+function evaluation fval=-4162.45 |w|=166.75 |grad|=30.5457
+NonConvexBundle::t=82 k=1 j=82 fcurrent=-4.162449e+03 reg=2.780544e+03 Remp=-6.942993e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=451
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170221e+03 dual=-4.170248e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=82 nfeval=82 f=-4.162449e+03 fbest=-4.164925e+03 Rbest=-6.947423e+03 tbest=76 dual=-4.170248e+03 gap=5.32318 =0.12781%
+===== () ===========
+function evaluation fval=-4163.17 |w|=166.744 |grad|=27.6326
+NonConvexBundle::t=83 k=1 j=83 fcurrent=-4.163169e+03 reg=2.780344e+03 Remp=-6.943513e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=429
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170205e+03 dual=-4.170227e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=83 nfeval=83 f=-4.163169e+03 fbest=-4.164925e+03 Rbest=-6.947423e+03 tbest=76 dual=-4.170227e+03 gap=5.30161 =0.12729%
+===== () ===========
+function evaluation fval=-4164.31 |w|=166.745 |grad|=26.9221
+NonConvexBundle::t=84 k=1 j=84 fcurrent=-4.164313e+03 reg=2.780377e+03 Remp=-6.944690e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=428
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170196e+03 dual=-4.170213e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=84 nfeval=84 f=-4.164313e+03 fbest=-4.164925e+03 Rbest=-6.947423e+03 tbest=76 dual=-4.170213e+03 gap=5.288 =0.12697%
+===== () ===========
+function evaluation fval=-4165.45 |w|=166.74 |grad|=18.7081
+NonConvexBundle::t=85 k=1 j=85 fcurrent=-4.165451e+03 reg=2.780207e+03 Remp=-6.945658e+03
+norm wbest=166.74 dist=0.63623 sumdist=17728
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=435
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170150e+03 dual=-4.170188e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=85 nfeval=85 f=-4.165451e+03 fbest=-4.165451e+03 Rbest=-6.945658e+03 tbest=85 dual=-4.170188e+03 gap=4.73681 =0.11372%
+===== () ===========
+function evaluation fval=-4163.77 |w|=166.728 |grad|=17.9171
+NonConvexBundle::t=86 k=1 j=86 fcurrent=-4.163768e+03 reg=2.779816e+03 Remp=-6.943584e+03
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=400
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.170112e+03 dual=-4.170145e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=86 nfeval=86 f=-4.163768e+03 fbest=-4.165451e+03 Rbest=-6.945658e+03 tbest=85 dual=-4.170145e+03 gap=4.69397 =0.11269%
+===== () ===========
+function evaluation fval=-4165.98 |w|=166.727 |grad|=0.913651
+NonConvexBundle::t=87 k=1 j=87 fcurrent=-4.165977e+03 reg=2.779784e+03 Remp=-6.945760e+03
+norm wbest=166.727 dist=0.25406 sumdist=17728.3
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=414
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = -4.167393e+03 dual=-4.167430e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=87 nfeval=87 f=-4.165977e+03 fbest=-4.165977e+03 Rbest=-6.945760e+03 tbest=87 dual=-4.167430e+03 gap=1.45306 =0.03488%
+===== () ===========
+DONE NonConvexBundle numfeval=87
+
+NCB = 
+
+           f: -4.1660e+03
+    numFEVAL: 87
+    ExecTime: 1.0800
+

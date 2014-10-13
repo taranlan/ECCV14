@@ -1,0 +1,86 @@
+BEGIN NonConvexBundle
+NonConvexBundle options:
+                     epsilon: 1.0000e-03
+                     maxiter: 500
+                       maxCP: 100
+                   fpositive: 0
+                computeGapQP: 1
+                 updateDiary: 1
+                   verbosity: 2
+    cuttingPlanAtOptimumDual: 0
+                          LS: 1
+                   nonconvex: 1
+                      solver: 'kowalczyk'
+
+NonConvexBundle::dimW=10000
+function evaluation fval=47495.2 |w|=0 |grad|=1599.88
+NonConvexBundle::t=1 k=1 j=1 fcurrent=4.749525e+04 reg=0.000000e+00 Remp=4.749525e+04
+norm wbest=0 dist=0 sumdist=0
+NCBlight::quadratic programming : primal = -1.232313e+06 dual=-1.232313e+06 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=1 nfeval=1 f=4.749525e+04 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-1.232313e+06 gap=1.27981e+06 =2694.60262%
+===== () ===========
+function evaluation fval=1.79643e+07 |w|=1599.88 |grad|=23997.8
+Zooming --> aj: 0.062501, alo: 0.000000, ahi: 1.000000
+function evaluation fval=2500.1 |w|=99.9949 |grad|=0.731879
+NonConvexBundle::step length=9.999486e+01
+NonConvexBundle::t=2 k=1 j=2 fcurrent=1.796433e+07 reg=1.279808e+06 Remp=1.668452e+07
+NonConvexBundle::t=2 k=2 j=3 fcurrent=2.500095e+03 reg=4.999486e+03 Remp=-2.499391e+03
+norm wbest=99.9949 dist=9998.97 sumdist=9998.97
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=5
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = 2.499827e+03 dual=2.499827e+03 gap=-0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=2 nfeval=3 f=2.500095e+03 fbest=2.500095e+03 Rbest=-2.499391e+03 tbest=2 dual=2.499827e+03 gap=0.267824 =0.01071%
+===== () ===========
+DONE NonConvexBundle numfeval=3
+
+NCB_LS = 
+
+           f: 2.5001e+03
+    numFEVAL: 3
+    ExecTime: 0.0300
+
+BEGIN NonConvexBundle
+NonConvexBundle options:
+                     epsilon: 1.0000e-03
+                     maxiter: 500
+                       maxCP: 100
+                   fpositive: 0
+                computeGapQP: 1
+                 updateDiary: 1
+                   verbosity: 2
+    cuttingPlanAtOptimumDual: 0
+                          LS: 1
+                   nonconvex: 1
+                      solver: 'kowalczyk'
+
+NonConvexBundle::dimW=10000
+function evaluation fval=47495.2 |w|=0 |grad|=1599.88
+NonConvexBundle::t=1 k=1 j=1 fcurrent=4.749525e+04 reg=0.000000e+00 Remp=4.749525e+04
+norm wbest=0 dist=0 sumdist=0
+NCBlight::quadratic programming : primal = -1.232313e+06 dual=-1.232313e+06 gap=0.00%
+NonConvexBundle::Time QP and update = 0.01 seconds
+NCBlight::t=1 nfeval=1 f=4.749525e+04 fbest=4.749525e+04 Rbest=4.749525e+04 tbest=1 dual=-1.232313e+06 gap=1.27981e+06 =2694.60262%
+===== () ===========
+function evaluation fval=1.79643e+07 |w|=1599.88 |grad|=23997.8
+Zooming --> aj: 0.062501, alo: 0.000000, ahi: 1.000000
+function evaluation fval=2500.1 |w|=99.9949 |grad|=0.731879
+NonConvexBundle::step length=9.999486e+01
+NonConvexBundle::t=2 k=1 j=2 fcurrent=1.796433e+07 reg=1.279808e+06 Remp=1.668452e+07
+NonConvexBundle::t=2 k=2 j=3 fcurrent=2.500095e+03 reg=4.999486e+03 Remp=-2.499391e+03
+norm wbest=99.9949 dist=9998.97 sumdist=9998.97
+solver libqp k=6 time=0.0s stat.exitflag=1 niter=4
+solver=libqp maxiter=1.000000e+06
+NCBlight::quadratic programming : primal = 2.499827e+03 dual=2.499827e+03 gap=0.00%
+NonConvexBundle::Time QP and update = 0.00 seconds
+NCBlight::t=2 nfeval=3 f=2.500095e+03 fbest=2.500095e+03 Rbest=-2.499391e+03 tbest=2 dual=2.499827e+03 gap=0.267824 =0.01071%
+===== () ===========
+DONE NonConvexBundle numfeval=3
+
+NCB_LS = 
+
+           f: 2.5001e+03
+    numFEVAL: 3
+    ExecTime: 0.0400
+

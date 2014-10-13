@@ -1,0 +1,224 @@
+POLY = 0;
+SPIKE = 0;
+WATER = 0;
+CHAINED2 = 0;
+MIFFLIN2 = 1;
+
+%===========================================================
+% Piecewise Polynomials 
+%===========================================================
+if POLY
+   N = 10000;
+   LAMBDA = 10;
+   EPS = 1e-3;
+
+   neval=100;rand('state',0);TD = zeros(neval,1);FEVAL = zeros(neval,1);ExecTime = zeros(neval,1);
+
+   for i=1:neval 
+	t0 = cputime;
+	[w f FEVAL(i) f0] = evalNRBM('N',N,'lambda',LAMBDA,'task','Poly','EPS',EPS,'LS',0);
+	ExecTime(i) = cputime-t0;
+	TD(i)=f0-f;
+   end;
+   NCB = struct('minTD',min(TD),...
+		'meanTD',mean(TD),...
+   		'maxTD',max(TD),...
+   		'minFEVAL',min(FEVAL),...
+		'meanFEVAL',mean(FEVAL),...
+   		'maxFEVAL',max(FEVAL),...
+   		'minExecTime',min(ExecTime),...
+		'meanExecTime',mean(ExecTime),...
+   		'maxExecTime',max(ExecTime));
+
+   neval=100;rand('state',0);TD = zeros(neval,1);FEVAL = zeros(neval,1);ExecTime = zeros(neval,1);
+
+   for i=1:neval 
+	t0 = cputime;
+	[w f FEVAL(i) f0] = evalNRBM('N',N,'lambda',LAMBDA,'task','Poly','EPS',EPS,'LS',1);
+	ExecTime(i) = cputime-t0;
+	TD(i)=f0-f;
+   end;
+
+   NCB_LS = struct(...
+   		'minTD',min(TD),...
+		'meanTD',mean(TD),...
+   		'maxTD',max(TD),...
+   		'minFEVAL',min(FEVAL),...
+		'meanFEVAL',mean(FEVAL),...
+   		'maxFEVAL',max(FEVAL),...
+   		'minExecTime',min(ExecTime),...
+		'meanExecTime',mean(ExecTime),...
+   		'maxExecTime',max(ExecTime));
+   disp(sprintf('=============== Poly === N=%d LAMBDA=%f EPS=%e==========',N,LAMBDA,EPS));
+   NCB
+   NCB_LS
+end
+
+%===========================================================
+% Spike 
+%===========================================================
+if SPIKE
+   N = 1;
+   LAMBDA = 0.1;
+   EPS = 1e-3;
+
+   t0 = cputime;
+   [w f numFEVAL f0] = evalNRBM('N',N,'lambda',LAMBDA,'task','Spike','EPS',EPS,'LS',0);
+   ExecTime = cputime-t0;
+   w0 = zeros(1,N); w0(1)=1;
+   wopt = zeros(1,N);
+   RA = - log( norm(w-wopt) / norm(w0-wopt)) / log(10);
+
+   NCB = struct('f',f,...
+		'RA',RA,...
+   		'numFEVAL',numFEVAL,...
+   		'ExecTime',ExecTime);
+
+   t0 = cputime;
+   [w f numFEVAL f0] = evalNRBM('N',N,'lambda',LAMBDA,'task','Spike','EPS',EPS,'LS',1);
+   ExecTime = cputime-t0;
+   w0 = zeros(1,N); w0(1)=1;
+   wopt = zeros(1,N);
+   RA = - log( norm(w-wopt) / norm(w0-wopt)) / log(10);
+
+   NCB_LS = struct('f',f,...
+		'RA',RA,...
+   		'numFEVAL',numFEVAL,...
+   		'ExecTime',ExecTime);
+
+   disp(sprintf('=============== Spike === N=%d LAMBDA=%f EPS=%e==========',N,LAMBDA,EPS));
+   NCB
+   NCB_LS
+end
+
+%===========================================================
+% Waterfalls 
+%===========================================================
+if WATER
+   N = 100000;
+   LAMBDA = 0.1;
+   EPS = 1e-3;
+   maxCP = 100;
+
+   neval=10;rand('state',0);TD = zeros(neval,1);FEVAL = zeros(neval,1);ExecTime = zeros(neval,1);
+
+   for i=1:neval 
+	t0 = cputime;
+	[w f FEVAL(i) f0] = evalNRBM('N',N,'lambda',LAMBDA,'task','Water','EPS',EPS,'LS',0,'maxCP',maxCP,'maxiter',99);
+	ExecTime(i) = cputime-t0;
+	TD(i)=f0-f;
+   end;
+   NCB = struct('minTD',min(TD),...
+		'meanTD',mean(TD),...
+   		'maxTD',max(TD),...
+   		'minFEVAL',min(FEVAL),...
+		'meanFEVAL',mean(FEVAL),...
+   		'maxFEVAL',max(FEVAL),...
+   		'minExecTime',min(ExecTime),...
+		'meanExecTime',mean(ExecTime),...
+   		'maxExecTime',max(ExecTime));
+
+   neval=10;rand('state',0);TD = zeros(neval,1);FEVAL = zeros(neval,1);ExecTime = zeros(neval,1);
+
+   for i=1:neval 
+	t0 = cputime;
+	[w f FEVAL(i) f0] = evalNRBM('N',N,'lambda',LAMBDA,'task','Water','EPS',EPS,'LS',1,'maxCP',maxCP);
+	ExecTime(i) = cputime-t0;
+	TD(i)=f0-f;
+   end;
+
+   NCB_LS = struct(...
+   		'minTD',min(TD),...
+		'meanTD',mean(TD),...
+   		'maxTD',max(TD),...
+   		'minFEVAL',min(FEVAL),...
+		'meanFEVAL',mean(FEVAL),...
+   		'maxFEVAL',max(FEVAL),...
+   		'minExecTime',min(ExecTime),...
+		'meanExecTime',mean(ExecTime),...
+   		'maxExecTime',max(ExecTime));
+   disp(sprintf('=============== Water === N=%d LAMBDA=%f EPS=%e==========',N,LAMBDA,EPS));
+   NCB
+   NCB_LS
+
+end
+
+%===========================================================
+% Chained2 
+%===========================================================
+if CHAINED2
+   EPS = 1e-3;
+   maxCP = 100;
+   N = 10000;
+   task = 'Chained2';
+   for LAMBDA=[0.1,0.2,0.5,1.0]
+     str = sprintf('%s_10K_lambda%d',task,LAMBDA*10);
+     diary([str '_NCB.txt']);
+     t0 = cputime;
+     [w f numFEVAL f0] = evalNRBM('N',N,'lambda',LAMBDA,'task','Chained2','EPS',EPS,'LS',0,'maxCP',maxCP);
+     ExecTime = cputime-t0;
+     w0 = zeros(1,N); w0(1)=1;
+     wopt = zeros(1,N);
+
+     NCB = struct('f',f,...
+   		'numFEVAL',numFEVAL,...
+   		'ExecTime',ExecTime)
+     diary off;
+     diary([str '_NCBLS.txt']);
+
+     t0 = cputime;
+     [w f numFEVAL f0] = evalNRBM('N',N,'lambda',LAMBDA,'task','Chained2','EPS',EPS,'LS',1,'maxCP',maxCP);
+     ExecTime = cputime-t0;
+     w0 = zeros(1,N); w0(1)=1;
+     wopt = zeros(1,N);
+     RA = - log( norm(w-wopt) / norm(w0-wopt)) / log(10);
+
+     NCB_LS = struct('f',f,...
+   		'numFEVAL',numFEVAL,...
+   		'ExecTime',ExecTime)
+     diary off;
+     disp(sprintf('=============== Chained2 === N=%d LAMBDA=%f EPS=%e==========',N,LAMBDA,EPS));
+     NCB
+     NCB_LS
+   end
+end
+
+%===========================================================
+% MIFFLIN2 
+%===========================================================
+if MIFFLIN2
+   EPS = 1e-3;
+   maxCP = 100;
+   N = 10000;
+   task = 'Mifflin2';
+   for LAMBDA=[0.1,0.2,0.5,1.0]
+     str = sprintf('%s_10K_lambda%d',task,LAMBDA*10);
+     diary([str '_NCB.txt']);
+     t0 = cputime;
+     [w f numFEVAL f0] = evalNRBM('N',N,'lambda',LAMBDA,'task','ChainedMifflin2','EPS',EPS,'LS',0,'maxCP',maxCP);
+     ExecTime = cputime-t0;
+     w0 = zeros(1,N); w0(1)=1;
+     wopt = zeros(1,N);
+
+     NCB = struct('f',f,...
+   		'numFEVAL',numFEVAL,...
+   		'ExecTime',ExecTime)
+     diary off;
+     diary([str '_NCBLS.txt']);
+
+     t0 = cputime;
+     [w f numFEVAL f0] = evalNRBM('N',N,'lambda',LAMBDA,'task','ChainedMifflin2','EPS',EPS,'LS',1,'maxCP',maxCP);
+     ExecTime = cputime-t0;
+     w0 = zeros(1,N); w0(1)=1;
+     wopt = zeros(1,N);
+
+     NCB_LS = struct('f',f,...
+   		'numFEVAL',numFEVAL,...
+   		'ExecTime',ExecTime)
+
+     diary off;
+     disp(sprintf('=============== MIFFLIN2 === N=%d LAMBDA=%f EPS=%e==========',N,LAMBDA,EPS));
+     NCB
+     NCB_LS
+   end
+end
