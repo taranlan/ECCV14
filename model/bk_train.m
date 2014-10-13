@@ -9,7 +9,7 @@ action_n = [5 25 60]; % number of classes in each layer
 orient_n = 5;
 featdims = 3;
 
-load('../subcategory/mat/pos_neg/data_l1.mat', 'state_idx');
+load('../subcategory/mat/data_l1.mat', 'state_idx');
 for i = 1:action_n(1)-1 % the 5-th class is "no-action", and doesn't have subcategories
   for j = 1:orient_n
     k = (i-1) * orient_n + j;
